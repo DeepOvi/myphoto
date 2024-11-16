@@ -1,1 +1,67 @@
+<html>
+    <head></head>
+    <body>
+     <script>
+        let ovi=prompt("Enter Password");
+       let barua=[77,111,110,105,68,101,101,112];
+       let barua_36=String.fromCharCode(...barua);
+       if(ovi==barua_36){
+      document.write("<input type=text      placeholder='Enter pic name' id=deep><button type=button onclick=love()>Click</button><br><br><output id=Love></output>");
+      function love(){
+          let gf=document.getElementById("deep").value.toLowerCase();
+
+   document.getElementById("Love").innerHTML=`<img src=./ram/${gf}.jpg width=350px height=300px alt='Sorry🤐🤐🤐🤐😞😞🤐.Input correct pic name🥰🥰'><button id='sweety'onclick='clean()'>Refresh</button>`;
+   }
+     function clean(){
+ document.getElementById("Love").innerHTML="";
+    }
+ const memory=document.querySelector("button");  memory.style.borderRadius="25px";
+memory.style.background="skyblue";
+memory.style.border="2px #2babff solid";
+memory.style.color="white";
+     
+        }
+             else{
+alert("Go to your home😁😁🥴🥴🥴🤣🤣😉😁😄😃🥱🥱🤭🤫🤫");
+ document.write("<video controls autoplay  loop src='./ram/cat.mp4'></video>");
+    }
+    </script>
+        <style>
+            #deep{
+                border:2px solid #15ffa1;
+                border-radius:50px;
+                width:220px;
+                height:25px;
+                background-color:#bfffea;
+                text-align:center;
+               }
+               #love{
+                   margin-left:7px;
+               }
+               video{
+                   width:380px;
+                   height:1200px;
+               }
+               img{
+                   width:350px;
+                   height:500px;
+                   }
+                 button{
+                    margin-left:230px;
+                    margin-top:-23px;
+                 }
+                 #sweety{
+                     margin-top:75px;
+                     margin-left:150px;
+                     border:hidden;
+                     border-radius:25px;
+                     background-color:#2bffea;
+                     color:White;
+                     width:60px;
+                     height:40px;
+                 }
+                 
+                </style>
+          </body>
+  </html>
 
